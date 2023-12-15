@@ -34,7 +34,7 @@ public class EmployeeRepositoryTest {
     @Test
     public void testFindAllByOrderBySalaryDesc() {
         Employee employee1 = new Employee("Тестовое ФИО", "Тестовая должность", 5, "Тестовая компания", 5000);
-        Employee employee2 = new Employee("Таргашин Альбедо Екатеринович", "Супер пупер разработчик", 3, "Супер пупер компания", 900000);
+        Employee employee2 = new Employee("Таргашин Альбедо Екатеринович", "Супер пупер разработчик", 3, "Супер пупер компания", 900);
         entityManager.persist(employee1);
         entityManager.persist(employee2);
         entityManager.flush();
